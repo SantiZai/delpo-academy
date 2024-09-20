@@ -1,0 +1,61 @@
+---
+import Button from "../components/Button"
+
+import { FaArrowRight } from "react-icons/fa6"
+---
+
+<section class="hero min-h-[75vh] w-full flex flex-col justify-center overflow-hidden text-nowrap">
+    <div class="h-full w-[90%] mx-auto flex flex-col justify-center items-start gap-4">
+        <h1 class="text-5xl text-gray-500 w-1/4 font-semibold text-wrap">
+            Join Delpo at the academy
+        </h1>
+        <Button large>Join Delpo <FaArrowRight /></Button>
+    </div>
+    <!-- <div class="move h-20 place-content-center w-full inline-block">
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+        <span>Opening this september -</span>
+    </div> -->
+</section>
+
+<style>
+    .hero {
+        background: no-repeat center / cover url(../assets/hero.jpg);
+    }
+
+    h1 {
+        text-shadow: 0px 4px 4px #00000025;
+    }
+
+    .move {
+        animation: slider 20s linear infinite
+    }
+
+    span {
+        @apply inline-block
+    }
+    
+    @keyframes slider {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+</style>
