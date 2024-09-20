@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 
 import { getI18N } from '../i18n';
+import Hero from './Hero.astro';
 
 const {currentLocale} = Astro
 const i18n = getI18N({currentLocale})
@@ -9,6 +10,6 @@ const i18n = getI18N({currentLocale})
 
 <Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION}>
 	<main class="text-white">
-		DELPO
+		<Hero />
 	</main>
 </Layout>
