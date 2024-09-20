@@ -1,20 +1,20 @@
-import { useStore } from "@nanostores/react";
-
-import { languageStore } from "../stores/languageStore";
-
-import { LANGUAGES } from "../utils/models";
-
 const ToggleLanguage = () => {
-  const $language = useStore(languageStore);
+  const toggleLanguage = () => {
+    if (window.location.pathname.includes("/en")) {
+      window.location.href = window.location.pathname.replace("en", "es")
+    } else {
+      window.location.href = window.location.pathname.replace("es", "en")
+    }
+  }
 
   return (
     <div className="min-w-16 flex justify-center">
-      {$language === LANGUAGES.ENGLISH ? (
-        <button className="w-full" onClick={() => languageStore.set(LANGUAGES.SPANISH)}>
+      {window.location.pathname.includes("/en") ? (
+        <button className="w-full" onClick={toggleLanguage}>
           Spanish
         </button>
       ) : (
-        <button className="w-full" onClick={() => languageStore.set(LANGUAGES.ENGLISH)}>
+        <button className="w-full" onClick={toggleLanguage}>
           English
         </button>
       )}

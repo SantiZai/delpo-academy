@@ -1,4 +1,11 @@
 {
     "SEO_TITLE": "Del Potro",
-    "SEO_DESCRIPTION": ""
+    "SEO_DESCRIPTION": "",
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre nosotros",
+        "programs": "Programas de tenis",
+        "contact": "Contacto",
+        "news": "Noticias"
+    }
 }

@@ -6,24 +6,33 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import ToggleLanguage from "./Toggle";
+
+import { getI18N } from '../i18n';
+
+const {currentLocale} = Astro
+const i18n = getI18N({currentLocale})
+
+const {home, about, programs, contact, news} = i18n.nav
 ---
 
-<nav class="w-full md:h-32 bg-white flex justify-between items-center px-10 py-5">
-    <Image src={logo} alt={"Logo"} width={200} height={50} />
-    <div class="flex gap-10">
-        <ul class="flex gap-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Tennis programs</li>
-            <li>Contact</li>
-            <li>News</li>
-        </ul>
-        <ul class="flex items-center gap-2">
-            <li><FaInstagram /></li>
-            <li><FaXTwitter /></li>
-            <li><FaFacebookF /></li>
-            <li><ToggleLanguage client:load /></li>
-        </ul>
+<nav class="w-full md:h-32 bg-white">
+    <div class="w-[90%] h-full mx-auto flex justify-between items-center px-5">
+        <Image src={logo} alt={"Logo"} class="w-auto h-full" />
+        <div class="flex gap-10">
+            <ul class="flex gap-4">
+                <li>{home}</li>
+                <li>{about}</li>
+                <li>{programs}</li>
+                <li>{contact}</li>
+                <li>{news}</li>
+            </ul>
+            <ul class="flex items-center gap-2">
+                <li><FaInstagram /></li>
+                <li><FaXTwitter /></li>
+                <li><FaFacebookF /></li>
+                <li><ToggleLanguage client:only /></li>
+            </ul>
+        </div>
     </div>
 </nav>
 

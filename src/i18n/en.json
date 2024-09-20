@@ -1,4 +1,11 @@
 {
     "SEO_TITLE": "Del Potro Tennis Academy",
-    "SEO_DESCRIPTION": ""
+    "SEO_DESCRIPTION": "",
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "programs": "Tennis programs",
+        "contact": "Contact",
+        "news": "News"
+    }
 }
