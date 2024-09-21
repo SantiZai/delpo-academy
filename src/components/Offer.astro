@@ -1,0 +1,41 @@
+---
+import { Image } from 'astro:assets';
+
+import { getI18N } from '../i18n';
+
+const {currentLocale} = Astro
+const i18n = getI18N({currentLocale})
+
+const {OFFER_TITLE, OFFER} = i18n
+---
+
+<section class="w-screen pt-10">
+    <div class="w-3/4 mx-auto flex flex-col items-center gap-10">
+        <div class="w-1/2 mx-auto text-pretty text-center text-[#717171] font-bold">
+            <h3 class="text-3xl">{OFFER_TITLE}</h>
+        </div>
+        <!-- TODO: bento grid -->
+        <div class="w-full p-6 bg-white rounded-lg shadow-md grid place-content-center grid-rows-4 grid-cols-4 gap-1 relative">
+            {
+                OFFER.map((offer) => {
+                    return (
+                        <div class={`${offer.disposition == "horizontal" ? "col-span-1 row-span-1" : "col-span-1 row-span-2"} rounded-md overflow-hidden relative group hover:shadow-md border-b-4 border-[#2F95DE]`}>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center bg-transparent text-white z-20">
+                                <p class="p-4 text-balance text-center text-black font-bold text-lg">
+                                    {offer.title}
+                                </p>
+                            </div>
+                            <Image src={offer.image} alt={offer.title} width={200} height={100} class="h-full w-full object-cover z-30 group-hover:z-10 group-hover:blur-sm transition-all relative" />
+                        </div>
+                    )
+                })
+            }
+        </div>
+    </div>
+</section>
+
+<style>
+    section {
+        background: linear-gradient(to bottom, #c3c3c3 50%, white);
+    }
+</style>
