@@ -11,5 +11,68 @@
     "DESCRIPTION_1": "Dedicated to cultivating the next generation of tennis champions and promoting wellness among tennis lovers, the Del Potro Tennis Academy embodies the values and spirit of its founder, <span style='color: #2F95DE'>Juan Martín del Potro</span>, the last male Grand Slam champion from the Americas.",
     "DESCRIPTION_2": "Known globally for his exceptional talent, charisma, resilience, and sportsmanship, <span style='color: #2F95DE'>Delpo, as he is known by his fans, is one of the sport's most beloved athletes.</span>",
     "DESCRIPTION_3": "The Academy is located at <a style='text-decoration: underline' href='https://www.indianspringcc.com/web/pages/about'>Indian Spring Country Club</a>, a gated oasis in Boynton Beach, South Florida, owned by <a style='text-decoration: underline' href='https://concertgolfpartners.com/'>Concert Golf Partners</a>. It is within driving distance of three international airports and world-renowned tennis competitions, such as <span style='color: #2F95DE'>the Miami Open and the Delray Beach Open.</span>",
-    "BIO": "<strong>US Open Champion, as well as many other ATP tournaments, Davis Cup winner, and Olympian medalist</strong> Juan Martín del Potro is one of the most decorated tennis players in the world.<br/>While his athletic prowess, sportsmanship, and passion have made him a fan favorite, his heart, resilience, and charisma have placed him in the hearts of tennis lovers worldwide.<br/>This Argentinian superstar has chosen South Florida as the base for his new era in tennis. His Del Potro Tennis Academy members will learn the physical, mental, and emotional techniques that have allowed him to be a champion inside and, as importantly, outside the court.<br/>DELPO is back and wants to give back to tennis and the fans by developing the new generations of stars."
+    "BIO": "<strong>US Open Champion, as well as many other ATP tournaments, Davis Cup winner, and Olympian medalist</strong> Juan Martín del Potro is one of the most decorated tennis players in the world.<br/>While his athletic prowess, sportsmanship, and passion have made him a fan favorite, his heart, resilience, and charisma have placed him in the hearts of tennis lovers worldwide.<br/>This Argentinian superstar has chosen South Florida as the base for his new era in tennis. His Del Potro Tennis Academy members will learn the physical, mental, and emotional techniques that have allowed him to be a champion inside and, as importantly, outside the court.<br/>DELPO is back and wants to give back to tennis and the fans by developing the new generations of stars.",
+    "OFFER_TITLE": "What we offer at Del Potro Tennis Academy",
+    "OFFER": [
+        {
+            "title": "26 tennis courts",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Country club membership",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Full indoor gym",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Support activities",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Mental training",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Physical therapy",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Nutritionist & diet plans",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Tournaments support",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Online classes",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Cafeteria & restaurants",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Pro shop",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "College placement",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        }
+    ]
 }

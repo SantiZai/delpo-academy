@@ -11,5 +11,68 @@
     "DESCRIPTION_1": "Dedicada a cultivar la próxima generación de campeones del tenis y a promover el bienestar entre los amantes de este deporte, la Del Potro Tennis Academy encarna los valores y el espíritu de su fundador , <span style='color: #2F95DE'>Juan Martín del Potro</span>,el último campeón masculino de Grand Slams nacido en el continente americano.",
     "DESCRIPTION_2": "Conocido mundialmente por su excepcional talento, carisma, resistencia y deportividad, <span style='color: #2F95DE'>Delpo, como lo conocen sus seguidores, es uno de los atletas más queridos de este deporte.</span>",
     "DESCRIPTION_3": "La Academia está situada dentro de <a style='text-decoration: underline' href='https://www.indianspringcc.com/web/pages/about'>Indian Spring Country Club</a>, un oasis cerrado en Boynton Beach, en el sur de Florida, propiedad de <a style='text-decoration: underline' href='https://concertgolfpartners.com/'>Concert Golf Partners</a>. Se encuentra a poca distancia en coche de tres aeropuertos internacionales y de competiciones de tenis de renombre mundial, como el <span style='color: #2F95DE'>Open de Miami y el Open de Delray Beach.</span>",
-    "BIO": "<strong>Campeón del US Open, así como de muchos otros torneos de la ATP, ganador de la Copa Davis y medallista olímpico</strong>, Juan Martín del Potro es uno de los tenistas más condecorados del mundo.<br/>Sus proezas atléticas, su deportividad y su pasión le han convertido en uno de los favoritos de los aficionados, pero su corazón, su resistencia y su carisma le han colocado en el corazón de los amantes del tenis de todo el mundo.<br/>Esta superestrella argentina ha elegido el sur de Florida como base de su nueva era en el tenis. Los miembros de su Del Potro Tennis Academy aprenderán las técnicas físicas, mentales y emocionales que le han permitido ser un campeón dentro y, lo que es tan importante, fuera de la cancha.<br/>DELPO está de vuelta y quiere devolver algo al tenis y a los aficionados desarrollando las nuevas generaciones de estrellas."
+    "BIO": "<strong>Campeón del US Open, así como de muchos otros torneos de la ATP, ganador de la Copa Davis y medallista olímpico</strong>, Juan Martín del Potro es uno de los tenistas más condecorados del mundo.<br/>Sus proezas atléticas, su deportividad y su pasión le han convertido en uno de los favoritos de los aficionados, pero su corazón, su resistencia y su carisma le han colocado en el corazón de los amantes del tenis de todo el mundo.<br/>Esta superestrella argentina ha elegido el sur de Florida como base de su nueva era en el tenis. Los miembros de su Del Potro Tennis Academy aprenderán las técnicas físicas, mentales y emocionales que le han permitido ser un campeón dentro y, lo que es tan importante, fuera de la cancha.<br/>DELPO está de vuelta y quiere devolver algo al tenis y a los aficionados desarrollando las nuevas generaciones de estrellas.",
+    "OFFER_TITLE": "Qué ofrecemos en la Del Potro Tennis Academy",
+    "OFFER": [
+        {
+            "title": "26 tennis courts",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Country club membership",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Full indoor gym",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Support activities",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Mental training",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Physical therapy",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Nutritionist & diet plans",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Tournaments support",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Online classes",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "Cafeteria & restaurants",
+            "image": "/images/office.png",
+            "disposition": "vertical"
+        },
+        {
+            "title": "Pro shop",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        },
+        {
+            "title": "College placement",
+            "image": "/images/office.png",
+            "disposition": "horizontal"
+        }
+    ]
 }
